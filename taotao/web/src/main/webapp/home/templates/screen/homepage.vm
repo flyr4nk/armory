@@ -1,0 +1,19 @@
+armory系统测试
+
+api介绍
+测试
+	http://armory.alibaba-inc.com/api/HelloworldApi.json
+返回示例：
+	helloword
+
+下架服务器
+	http://armory.alibaba-inc.com/api/RemoveServerApi.json?ip=xxx.xxx.xxx&host=hangzhou-zzzxx222
+返回示例：
+	{"state":"1","message":"success"}
+	{"state":"0","message":"false"}
+
+http://armory.alibaba-inc.com/api/ExecScriptApi.json
+
+http://armory.alibaba-inc.com/api/AddServerApi.json
+
+http://armory.alibaba-inc.co

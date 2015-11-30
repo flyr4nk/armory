@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <group>
+        <property name="taotao.work" description="应用程序的工作目录" />
+        <property name="taotao.loggingRoot" defaultValue="${taotao.work}/logs"
+                  description="日志文件目录" />
+        <property name="taotao.upload" defaultValue="${taotao.work}/upload"
+                  description="上传文件的目录" />
+        <property name="taotao.loggingLevel" defaultValue="warn" description="日志文件级别">
+            <validator name="choice" choice="trace, debug, info, warn, error" />
+        </property>
+    </group>
+    <script>
+        <generate template="WEB-INF/web.xml" />
+        <generate template="WEB-INF/common/resources.xml" />
+    </script>
+</config>
