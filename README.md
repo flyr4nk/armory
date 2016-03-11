@@ -1,6 +1,6 @@
 # armory
 armory测试代码
 
-http://armory.alibaba-inc.com
+http://systemadmin.alibaba-inc.com
 
 balabala...
