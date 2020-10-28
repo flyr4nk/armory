@@ -52,7 +52,7 @@
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>jcl-over-slf4j</artifactId>
-                <version>1.7.5</version>
+                <version>1.7.30</version>
             </dependency>
             <dependency>
                 <groupId>ch.qos.logback</groupId>
@@ -185,11 +185,11 @@
                         <phase>compile</phase>
                         <configuration>
                             <target>
-                                <echo message="project home:        ${basedir}" />
-                                <echo message="java home:           ${java.home}" />
-                                <echo message="java source version: ${java.version}" />
-                                <echo message="java target version: ${java.version}" />
-                                <echo message="java source charset: ${java.encoding}" />
+                                <echo message="project home:        ${basedir}"/>
+                                <echo message="java home:           ${java.home}"/>
+                                <echo message="java source version: ${java.version}"/>
+                                <echo message="java target version: ${java.version}"/>
+                                <echo message="java source charset: ${java.encoding}"/>
                             </target>
                         </configuration>
                         <goals>
@@ -308,7 +308,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
