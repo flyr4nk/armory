@@ -165,7 +165,7 @@
             <dependency>
                 <groupId>org.freemarker</groupId>
                 <artifactId>freemarker</artifactId>
-                <version>2.3.20</version>
+                <version>2.3.30</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -185,11 +185,11 @@
                         <phase>compile</phase>
                         <configuration>
                             <target>
-                                <echo message="project home:        ${basedir}" />
-                                <echo message="java home:           ${java.home}" />
-                                <echo message="java source version: ${java.version}" />
-                                <echo message="java target version: ${java.version}" />
-                                <echo message="java source charset: ${java.encoding}" />
+                                <echo message="project home:        ${basedir}"/>
+                                <echo message="java home:           ${java.home}"/>
+                                <echo message="java source version: ${java.version}"/>
+                                <echo message="java target version: ${java.version}"/>
+                                <echo message="java source charset: ${java.encoding}"/>
                             </target>
                         </configuration>
                         <goals>
@@ -308,7 +308,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
